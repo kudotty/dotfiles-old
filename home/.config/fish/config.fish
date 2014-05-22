@@ -16,3 +16,6 @@ set fish_theme syl20bnr
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+##__ own config
+set fish_greeting
