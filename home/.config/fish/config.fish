@@ -19,3 +19,7 @@ set fish_theme gianu
 
 ##__ own config
 set fish_greeting
+
+alias dl "docker ps -l -q"
+alias dlip "docker inspect (dl) | grep IPAddress | cut -d '\"' -f 4"
+alias drma "docker rm (docker ps -a -q)"
