@@ -26,3 +26,7 @@ alias drma "docker rm (docker ps -a -q)"
 alias dps "docker ps -a"
 alias dima "docker images"
 
+alias l "ls -la"
+alias lr "ls -laR"
+
+alias le "less"
