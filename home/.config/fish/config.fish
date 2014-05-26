@@ -20,11 +20,12 @@ set fish_theme gianu
 ##__ own config
 set fish_greeting
 
+alias d "docker"
 alias dl "docker ps -l -q"
 alias dlip "docker inspect (dl) | grep IPAddress | cut -d '\"' -f 4"
 alias drma "docker rm (docker ps -a -q)"
 alias dps "docker ps -a"
-alias dima "docker images"
+alias dim "docker images"
 
 alias l "ls -l"
 alias lr "ls -laR"
