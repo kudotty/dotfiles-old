@@ -23,6 +23,7 @@ set fish_greeting
 alias d "docker"
 alias dl "docker ps -l -q"
 alias dlip "docker inspect (dl) | grep IPAddress | cut -d '\"' -f 4"
+alias dlpid "docker inspect --format '{{.State.Pid}}' (dl)"
 alias drma "docker rm (docker ps -a -q)"
 alias dps "docker ps -a"
 alias dim "docker images"
